@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: rgb(191, 200, 202);
+}
+
+h1 {
+  font-family: Verdana, sans-serif;
+  color: #112c49;
+}
+
+#display {
+  background-color: #d9dfe4;
+  border: 4px solid #112c49;
+  margin-top: 100px;
+  width: 20vw;
+  min-width: 200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+#numpad {
+  margin-top: 20px;
+  width: 95vw;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+.numRow {
+  width: 95vw;
+  max-width: 1200px;
+}
+.numRow button {
+  width: 100px;
+  height: 100px;
+  max-width: 130px;
+  max-height: 130px;
+  font-size: 3em;
+  font-family: "Verdana", sans-serif;
+  color: #112c49;
+  background-color: #acc0d6;
+  border: 4px solid #112c49;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.numButton button {
+  height: auto;
+  background-color: rgb(106, 38, 170);
+  color: white;
+  font-size: 1em;
+}
+.numRow button:hover {
+  background-color: #d9dfe4;
+}
+button:disabled,
+button[disabled] {
+  background-color: #a9a9a9;
+}
+button[disabled]:hover {
+  background: #a9a9a9;
+}
+
+#playAudioButton {
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  left: 50%;
+  margin-left: -209px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  background-color: #cacaca;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: "Verdana", sans-serif;
+  border: 4px solid #112c49;
+  color: #112c49;
+  font-weight: bold;
+}
+
+.nav-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #cacaca;
+  color: #112c49;
+  border: 4px solid #112c49;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Verdana", sans-serif;
+}
+
+.nav-button:hover {
+  background-color: darkviolet;
+}
+
+.home {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: rgb(168, 172, 182);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 4px solid #112c49;
+  color: #112c49;
+  font-family: "Verdana", sans-serif;
+}
+
+.home:hover {
+  background-color: #90989f;
+}

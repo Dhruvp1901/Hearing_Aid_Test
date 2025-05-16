@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Digit Triplet Test</h1>
+    <div id="playAudioButton" onclick="start_test(this)">
+      Start the Test / Simolola teko ya kutlo
+    </div>
+    <div id="display">
+      <h1 id="displayText"></h1>
+    </div>
+    <div id="numpad">
+      <div class="numRow">
+        <button disabled value="7" onclick="clickHandler(this)">7</button>
+        <button disabled value="8" onclick="clickHandler(this)">8</button>
+        <button disabled value="9" onclick="clickHandler(this)">9</button>
+      </div>
+      <div class="numRow">
+        <button disabled value="4" onclick="clickHandler(this)">4</button>
+        <button disabled value="5" onclick="clickHandler(this)">5</button>
+        <button disabled value="6" onclick="clickHandler(this)">6</button>
+      </div>
+      <div class="numRow">
+        <button disabled value="1" onclick="clickHandler(this)">1</button>
+        <button disabled value="2" onclick="clickHandler(this)">2</button>
+        <button disabled value="3" onclick="clickHandler(this)">3</button>
+      </div>
+      <div class="numRow">
+        <button disabled value="11" onclick="clickHandler(this)"><</button>
+        <button disabled value="0" onclick="clickHandler(this)">0</button>
+        <button disabled value="10" onclick="clickHandler(this)">
+          &check;
+        </button>
+      </div>
+    </div>
+
+    <!-- <button class="nav-button" onclick="goToResult()">Pass/Fail screen example</button> -->
+
+    <script>
+      function returnToMain() {
+        window.location.href = "front-page.html";
+      }
+    </script>
+  </body>
+</html>

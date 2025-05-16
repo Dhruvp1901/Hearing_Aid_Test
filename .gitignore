@@ -1,0 +1,5 @@
+DTT.pptx
+node_modules/
+*.txt
+out/
+build/digitAppBuild-win32-x64/digitAppBuild.exe

@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(224, 247, 250);
+    color: black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+    url('background_hearing_test.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+.container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-right: 50px;
+    margin-top: 130px;
+    text-align: left;
+}
+
+.description {
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.start-button {
+    color: #fff;
+    background-color: #00ae82; 
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 34px;
+    border: none;
+    border-color: #00ae82;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover{
+    background-color: #20c997;
+}
+
+ul{
+    font-size: 28px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    line-height: 1.4;
+
+}
+
+a{
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+a:hover{
+    color: #20c997;
+}
